@@ -1,5 +1,6 @@
-h1, p {
-  font-family: "Lato", sans-serif;
+h1,
+p {
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -13,9 +14,62 @@ p {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7e25;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: #7ec225;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 100px;
+  background-color: #069;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 20px;
   
+}
+
+
